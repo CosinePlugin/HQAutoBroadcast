@@ -1,0 +1,12 @@
+name: HQAutoBroadcast
+version: 1.0.0
+api-version: 1.13
+main: kr.hqservice.broadcast.HQAutoBroadcast
+authors: [ Cosine_A ]
+softdepend:
+  - MS-Core
+
+commands:
+  공지관리:
+    permission: op
+    description: 공지 관리 관련 명령어입니다.
